@@ -1,0 +1,71 @@
+.body{
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    line-height: 1.7cm;
+
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+label{
+    display: inline-block;
+width: 180px;
+}
+
+input[type='text']{
+    width: 97%;
+    padding: 4px;
+    border-radius: 5px;
+    border:1px #0d6efd solid;
+}
+input[type='number']{
+    width: 50px;
+    padding: 4px;
+    border-radius: 5px;
+    border:1px #0d6efd solid;
+}
+.container{
+    width: 60%;
+    margin:0 auto;
+    overflow: auto;
+
+}
+header{
+    border-bottom:3px purple solid;
+}
+footer{
+    border-top:3px purple solid;
+    text-align: center;
+    padding-top: 5px;
+}
+main{
+    padding-bottom: 20px;
+}
+
+a.start{
+    display: inline-block;
+    color: whitesmoke;
+    background: #0f5132;
+
+    border: 2px dot-dot-dash #c1d6cc;
+    padding: 6px 13px;
+
+}
+.current{
+padding: 10px;
+    background: lightgrey;
+    border: #c1d6cc dot-dash 1px;
+    margin:20px 0 10px 0;
+;
+}
+@media only screen and (max-width: 960px) {
+    .container{
+        width: 80%;
+    }
+
+}
